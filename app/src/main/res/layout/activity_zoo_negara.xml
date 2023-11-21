@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperregion"
+    tools:context=".zoo_negara">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="391dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/img_3" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="382dp"
+        android:layout_height="468dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Zoo Negara"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.426" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="393dp"
+                android:layout_height="866dp"
+                android:justificationMode="inter_word"
+                android:text="Zoo Negara Malaysia is managed by the Malaysian Zoological Society, a non-governmental organization established to create the first local zoo for Malaysians. Zoo Negara was officially opened on 14th November 1963 and has matured into a well-known zoo all around the world. We have a total of over 5137 specimens from 476 species of mammals, birds, reptiles, amphibians and fish.\n\nZoo Negara Malaysia covers 110 acres of land which is situated only 5km from the city of Kuala Lumpur. Over the years, the zoo has transformed itself into an open concept zoo with over 90% of its animals being kept in spacious exhibits with landscape befitting its nature. We are working in making sure that the old zoo concept is changed entirely.\n\nZoo Negara officially opened on 14th November 1963 and become a well-known zoo all around the world. It is managed by the Malaysian Zoological Society, a non-governmental organization. It located 5 km from the city of Kuala Lumpur. In Zoo Negara, it has about 476 species of mammals, birds, reptiles, amphibians and fish.\n\nIt suitable for family who wants spends more times with their kids by visiting here during the weekend. It has an animal show time from sea lion and macaws to entertain the visitors. Zoo Negara also provides event services such as birthday party celebrations, zoo hunt or explorace activity. For booking or any inquiries, visitors may contact the zoo team management.\n\nThe facilities provided in Zoo Negara such as below:\n• Prayer room\n• Food and souvenir kiosk\n• Toilet\n• Zoo huts\n• Free public wifi\n• Wheelchair (refundable deposit fee RM50)\n• Stroller (refundable deposit fee RM50)\n• Lockers (rental fee RM2)\n\nEntrance fee:\nRM45.00 for Adult, RM18.00 for Child\nRM50.00 for Foreigner with Work Permit"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.426" />
+
+            <Button
+                android:id="@+id/zoonegarabtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawableTop="@drawable/zoo"
+                android:text="Google Maps"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

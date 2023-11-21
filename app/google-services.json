@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79468744699",
+    "project_id": "tourism-selangor-82fad",
+    "storage_bucket": "tourism-selangor-82fad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79468744699:android:cf054a82bffa4eb316055e",
+        "android_client_info": {
+          "package_name": "com.example.tourismselangor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmOVZYgVBKudyuX3I0K8z5IwkAhFYTvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

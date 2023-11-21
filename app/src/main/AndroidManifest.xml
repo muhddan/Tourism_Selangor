@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourismSelangor"
+        tools:targetApi="31">
+        <activity
+            android:name=".sepang"
+            android:exported="false" />
+        <activity
+            android:name=".ioicity"
+            android:exported="false" />
+        <activity
+            android:name=".mitsuioutlet"
+            android:exported="false" />
+        <activity
+            android:name=".redangbeach"
+            android:exported="false" />
+        <activity
+            android:name=".sekinchanpaddy"
+            android:exported="false" />
+        <activity
+            android:name=".ahmahouse"
+            android:exported="false" />
+        <activity
+            android:name=".selangorjapan"
+            android:exported="false" />
+        <activity
+            android:name=".tropicanagardensmall"
+            android:exported="false" />
+        <activity
+            android:name=".watchetawan"
+            android:exported="false" />
+        <activity
+            android:name=".sultanibrahimmosque"
+            android:exported="false" />
+        <activity
+            android:name=".batuhampar"
+            android:exported="false" />
+        <activity
+            android:name=".bukitmalawati"
+            android:exported="false" />
+        <activity
+            android:name=".quayside"
+            android:exported="false" />
+        <activity
+            android:name=".riverinepark"
+            android:exported="false" />
+        <activity
+            android:name=".splashmania"
+            android:exported="false" />
+        <activity
+            android:name=".masjidindia"
+            android:exported="false" />
+        <activity
+            android:name=".chennaisilk"
+            android:exported="false" />
+        <activity
+            android:name=".tanjungharapan"
+            android:exported="false" />
+        <activity
+            android:name=".darulquran"
+            android:exported="false" />
+        <activity
+            android:name=".gentingfarm"
+            android:exported="false" />
+        <activity
+            android:name=".serendah_waterfall"
+            android:exported="false" />
+        <activity
+            android:name=".travelling_tips"
+            android:exported="false" />
+        <activity
+            android:name=".chongkakpark"
+            android:exported="false" />
+        <activity
+            android:name=".sungailepoh"
+            android:exported="false" />
+        <activity
+            android:name=".tasikcempaka"
+            android:exported="false" />
+        <activity
+            android:name=".user_guide"
+            android:exported="false" />
+        <activity
+            android:name=".zoo_negara"
+            android:exported="false" />
+        <activity
+            android:name=".Bucket_splash"
+            android:exported="false" />
+        <activity
+            android:name=".tasikbirukundang"
+            android:exported="false" />
+        <activity
+            android:name=".feedpage"
+            android:exported="false" />
+        <activity
+            android:name=".sepang_region"
+            android:exported="false" />
+        <activity
+            android:name=".sabakbernam_region"
+            android:exported="false" />
+        <activity
+            android:name=".petaling_region"
+            android:exported="false" />
+        <activity
+            android:name=".kualaselangor_region"
+            android:exported="false" />
+        <activity
+            android:name=".kualalangat_region"
+            android:exported="false" />
+        <activity
+            android:name=".klang_region"
+            android:exported="false" />
+        <activity
+            android:name=".huluselangor_region"
+            android:exported="false" />
+        <activity
+            android:name=".hululangat_region"
+            android:exported="false" />
+        <activity
+            android:name=".Gombak_region"
+            android:exported="false" />
+        <activity
+            android:name=".Explore_selangor"
+            android:exported="false" />
+        <activity
+            android:name=".About_selangor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

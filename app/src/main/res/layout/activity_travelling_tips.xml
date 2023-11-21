@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".travelling_tips">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="171dp"
+        android:layout_height="33dp"
+        android:text="Travelling Tips"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="387dp"
+        android:layout_height="664dp"
+        android:justificationMode="inter_word"
+        android:text="Traveling in Selangor, Malaysia can be a wonderful experience, as the state offers a rich cultural heritage, natural beauty, and modern attractions.\n\n1) Check Visa Requirements : Make sure you have the appropriate visa to enter Malaysia. Check the latest visa requirements and regulations before your trip.\n\n2) Weather: Selangor has a tropical climate, so be prepared for hot and humid weather. Pack light, breathable clothing, sunscreen, and a hat.\n\n3) Language: The official language is Malay, but English is widely spoken, especially in urban areas and tourist destinations.\n\n4) Currency: The currency in Malaysia is the Malaysian Ringgit (MYR). Credit cards are widely accepted, but it's a good idea to carry some cash for small purchases and in case you visit places that don't accept cards.\n\n5) Transportation: Selangor is well-connected by roads, and you can use taxis, ride-sharing apps, and public transportation like buses and trains.\n\n6) Local Events and Festivals: Check if there are any local festivals or events happening during your visit. Participating in cultural festivals can be a memorable experience.\n\n7) Ticket Prices : Ticket prices for some tourist attractions may be vary due to Malaysian and Non-Malaysian prices."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

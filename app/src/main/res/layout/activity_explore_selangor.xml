@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/explorebackground"
+    tools:context=".Explore_selangor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Selangor"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ScrollView
+        android:layout_width="385dp"
+        android:layout_height="653dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gombakbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/batucaves"
+                android:text="Gombak"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/hululangatbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/hululangat"
+                android:text="Hulu Langat"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/huluselangorbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/huluselangor"
+                android:text="Hulu Selangor"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/klangbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/klang"
+                android:text="Klang"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/kualalangatbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/kualalangat"
+                android:text="Kuala Langat"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/kualaselangorbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/kualaselangor"
+                android:text="Kuala Selangor"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/petalingbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/petaling"
+                android:text="Petaling"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/sabakbernambtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/sabakbernam"
+                android:text="Sabak Bernam"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+            <Button
+                android:id="@+id/sepangbtn"
+                android:layout_width="188dp"
+                android:layout_height="match_parent"
+                android:background="#C3000000"
+                android:drawableTop="@drawable/sepang"
+                android:text="Sepang"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.382" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
